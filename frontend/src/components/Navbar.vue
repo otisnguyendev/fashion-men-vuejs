@@ -213,9 +213,7 @@ export default {
       this.$router.push("/profile");
     },
     logout() {
-      localStorage.removeItem("isLoggedIn");
-      localStorage.removeItem("username");
-      // this.$router.push("/login");
+      localStorage.clear();
     },
   },
 };

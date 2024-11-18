@@ -36,9 +36,12 @@
               <input type="checkbox" class="form-checkbox text-blue-500" />
               <span class="ml-2">Remember Me</span>
             </label>
-            <a href="#" class="text-blue-500 hover:underline"
-              >Forgot Password</a
+            <router-link
+              to="/forgot-password"
+              class="text-blue-500 hover:underline"
             >
+              Forgot Password
+            </router-link>
           </div>
           <router-link to="/register">
             <button

@@ -93,11 +93,10 @@
           >
             THÊM VÀO GIỎ HÀNG
           </v-btn>
-          <v-btn class="bg-red-900 text-white">MUA NGAY</v-btn>
+          <v-btn class="bg-gray-800 text-white"
+            >CLICK VÀO ĐÂY ĐỂ NHẬN ƯU ĐÃI</v-btn
+          >
         </div>
-        <v-btn class="bg-gray-800 text-white mt-4"
-          >CLICK VÀO ĐÂY ĐỂ NHẬN ƯU ĐÃI</v-btn
-        >
         <div class="mt-4 flex space-x-4 text-3xl">
           <a class="text-[#3b82f6]" href="#">
             <i class="mdi mdi-facebook"></i>

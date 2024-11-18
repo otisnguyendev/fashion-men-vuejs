@@ -1,8 +1,7 @@
 import Cart from "@/components/Cart.vue";
-import Product from "@/components/Product.vue";
+import ForgotPassword from "@/pages/ForgotPassword.vue";
 import Home from "@/pages/Home.vue";
 import Login from "@/pages/Login.vue";
-import NewProduct from "@/pages/NewProduct.vue";
 import ProductDetail from "@/pages/ProductDetail.vue";
 import { createRouter, createWebHistory } from "vue-router/auto";
 import { routes } from "vue-router/auto-routes";
@@ -12,11 +11,6 @@ const newRoutes = [
     path: "/",
     name: "Home",
     component: Home,
-  },
-  {
-    path: "/new-product",
-    name: "NewProduct",
-    component: NewProduct,
   },
   {
     path: "/login",
@@ -32,6 +26,11 @@ const newRoutes = [
     path: "/cart",
     name: "Cart",
     component: Cart,
+  },
+  {
+    path: "/forgot-password",
+    name: "ForgotPassword",
+    component: ForgotPassword,
   },
 ];
 
